@@ -3,39 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     
+    <main>
+        <div class="container">
+            <div>
+            <h1 class="display">0</h1>
+            </div>
 
-    <div class="winner hide">
-      <p class="msg"> Congratulations</p>
-      <button class="playAgainBtn">Play Again </button>
-    </div>
+            <table>
+                <tr class="row">
+                    <td> <input class="data" type="button" value="AC"></td>
+                    <td> <input class="data" type="button" value="CLR"></td>
+                    <td> <input class="data" type="button" value="%"></td>
+                    <td> <input class="data" type="button" value="/"></td>
+                </tr>
 
-    <main class="main ">
+                <tr class="row">
+                    <td> <input class="data" type="button" value="1"></td>
+                    <td> <input class="data" type="button" value="2"></td>
+                    <td> <input class="data" type="button" value="3"></td>
+                    <td> <input class="data" type="button" value="*"></td>
+                </tr>
 
-        <h1 class="heading1">TIC TAC TOE GAME </h1>
-        <h3 class="h1">player 1 = "O"</h3>
-        <h3 class="h1">player 2 = "X"</h3>
+                <tr class="row">
+                    <td> <input class="data" type="button" value="4"></td>
+                    <td> <input class="data" type="button" value="5"></td>
+                    <td> <input class="data" type="button" value="6"></td>
+                    <td> <input class="data" type="button" value="-"></td>
+                </tr>
+                <tr class="row">
+                    <td> <input class="data" type="button" value="1"></td>
+                    <td> <input class="data" type="button" value="2"></td>
+                    <td> <input class="data" type="button" value="3"></td>
+                    <td> <input class="data" type="button" value="+"></td>
+                </tr>
 
-        
-        <div class="div1">
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-          
+                <tr class="row">
+                    <td> <input class="data" type="button" value="0"></td>
+                    <td> <input class="data" type="button" value="00"></td>
+                    <td> <input class="data" type="button" value="."></td>
+                    <td> <input class="data" type="button" value="="></td>
+                </tr>
+            </table>
         </div>
-
-        <button class="reset">Reset</button>
     </main>
     <script src="script.js"></script>
 </body>
